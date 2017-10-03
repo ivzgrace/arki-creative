@@ -34,10 +34,10 @@ $(document).ready(function(){
   $('#logoslide').fadeOut(7000,function(){
       //$(this).slideUp('slow');
       $('.homeheader .mainlogo img').css("visibility", "visible");
-        if ($(window).width() <= 992) {
-          $('.homeheader .mobile-logo img').css("visibility", "visible");
-        }
-      });
+      if ($(window).width() <= 992) {
+        $('.homeheader .mobile-logo img').css("visibility", "visible");
+      }
+ });
  });
 
 
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 </head>
 <header class="homeheader" role="banner">
-    <a class="mobile-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/02/logo.png" alt=""></a>
+    <a class="mobile-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/02/logo.png" alt="Arki Creative Design"></a>
 <nav id="navbar-primary" class="navbar" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
