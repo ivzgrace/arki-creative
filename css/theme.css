@@ -1,0 +1,461 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/347edf");
+
+@font-face {
+	font-family: 'Vrinda';
+	src: url('../fonts/Vrinda.eot');
+	src: url('../fonts/Vrinda.woff') format('woff'), 
+		  url('..fonts/Vrinda.ttf') format('truetype'), 
+		  url('../fonts/Vrinda.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VrindaBold';
+	src: url('../fonts/vrindab.eot');
+	src: url('../fonts/vrindab.woff') format('woff'), 
+		url('../fonts/vrindab.ttf') format('truetype'), 
+		url('../fonts/vrindab.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'pineappleregular';
+    src: url('../fonts/Pineapple-Regular.eot') format('embedded-opentype'),
+    	url('../fonts/pineapple-regular.woff2') format('woff2'),
+        url('../fonts/pineapple-regular.woff') format('woff'),
+        url('../fonts/Pineapple-Regular.ttf') format('truetype'), 
+        url('../fonts/Pineapple-Regular.svg#Pineapple-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  
+@font-face {font-family: 'Nexa-Light';
+	src: url('../fonts/347EDF_9_0.eot');
+	src: url('../fonts/347EDF_9_0.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/347EDF_9_0.woff2') format('woff2'),
+		url('../fonts/347EDF_9_0.woff') format('woff'),
+		url('../fonts/347EDF_9_0.ttf') format('truetype');}
+  
+  
+@font-face {font-family: 'Nexa-XBold';
+	src: url('../fonts/347EDF_F_0.eot');
+	src: url('../fonts/347EDF_F_0.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/347EDF_F_0.woff2') format('woff2'),
+		url('../fonts/347EDF_F_0.woff') format('woff'),
+		url('../fonts/347EDF_F_0.ttf') format('truetype');}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Nexa-XBold', sans-serif;
+   text-transform: uppercase;
+}
+
+/* for 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+.mobile-logo{
+	display: none;
+}
+/* navigation menu */
+
+#navbar-primary .navbar-nav { 
+  width: 100%;
+  text-align: center;
+  
+}
+#navbar-primary .navbar-nav > li{
+	display: inline-block;
+    float: none;
+}
+.nav.navbar-nav > li > a{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #494949;
+	padding-left: 34px;
+	padding-right: 35px;
+}
+
+.nav.navbar-nav > li > a:hover,
+.nav.navbar-nav > li > a:active,
+.nav.navbar-nav > li > a:focus,
+.nav .current-menu-item > a{
+	text-decoration: underline;
+}
+.navbar-toggle .icon-bar{
+	background: #ccc;
+}
+#navbar-primary .navbar-toggle{
+	border:1px solid #ccc;
+}
+.navbar-brand-centered{
+	display: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus{
+	background-color: transparent;
+	color: #494949;
+	text-decoration: underline;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus{
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* home page */
+
+.arki-home{
+	padding:30px 0;
+}
+
+/* about */
+.inner{
+	padding-bottom: 30px;
+}
+
+.inner .row2{
+	padding-bottom: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row2 h2{
+	margin-top: 0px;
+}
+.easy_t_single_testimonial blockquote.easy_testimonial{
+	border:1px solid #eeeeee;
+	font-size: 15px;
+	border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.testimonial_body{
+	padding-bottom: 20px;
+}
+/* portfolio */
+.portfolio, .press-media{
+	text-align: center;
+	padding: 30px 0;
+}
+.portfolio .col-md-2{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.portfolio .col-md-4{
+	min-height: 220px;
+}
+.portfolio h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.portfolio .img-portfolio{
+    margin:0 auto;
+}
+.portfolio .img-portfolio:hover{
+	opacity: 0.7;
+	border:1px solid #00ff00;
+}
+.single-portfolio{
+	color: #494949;
+	padding: 20px 0;
+}
+.single-portfolio h1{
+	color: #494949;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "VrindaBold";
+}
+
+
+.portdesc{
+	padding-left: 73px;
+	padding-right: 73px;
+}
+.portfolio-content{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.portfolio-content .row div{
+	padding-bottom: 10px;
+}
+.portfolio-content .col-xs-1{
+	width: 2%;
+}
+.slider{
+	width: 90%;
+	margin: 0 auto;
+}
+.bx-wrapper{
+	box-shadow: none;
+	margin: 0 auto 20px;
+    padding: 0;
+    position: relative;
+}
+
+.bx-wrapper .bx-viewport{
+    border: 0;
+    box-shadow: none;
+    transform: translateZ(0px);
+}
+.bx-wrapper .bx-controls-direction a{
+	height: 49px;
+}
+
+.bx-wrapper .bx-prev{
+	background: url("../images/arrow-left.png") no-repeat;
+	left: -40px;
+}
+.bx-wrapper .bx-next{
+	background: url("../images/arrow-right.png") no-repeat;
+	right: -40px;
+}
+
+.bx-wrapper .bx-next:focus, 
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-prev:focus, 
+.bx-wrapper .bx-prev:hover{
+	background-position: 0 0;
+	opacity: 0.2;
+
+}
+.goback{
+	float: right;
+}
+.press-media h3{
+     font-family:"VrindaBold";
+	 font-size: 16px;
+	 margin-top: 5px;
+	 margin-bottom:0px;
+	text-transform: uppercase;
+	color: #000;	 
+	line-height:1;
+}
+.press-media .pubdate{
+	font-weight:normal;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000;	
+}
+.press-media img{
+	margin:0 auto;
+}
+.press-thumb{
+	padding-bottom:20px;
+}
+.single-press{
+	text-align: center;
+}
+.single-press img{
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+
+/* arki on tv */
+.picholder {
+    margin-bottom:20px;
+}
+
+.overlay {
+    background-color: #494949;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.picholder:hover img{
+	opacity: 0.9;
+}
+.overlay a{
+	color: #fff;
+}
+.overlay a:hover{
+	text-decoration: none;
+}
+.text_box {
+    color: #ffffff;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 3.5em;
+    padding: 10px 10px 50%;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.arki-contentb{
+	padding:30px 0;
+}
+/* contact */
+.nf-before-form-content{
+	padding-bottom: 20px;
+}
+.contact-form .nf-field-container, 
+.contact-form #ninja_forms_required_items{
+	margin-bottom: 15px;
+}
+.btn-default{
+	background-color: #494949;
+	color: #fff;
+}
+.list-unstyled{
+	margin-bottom: 20px;
+}
+.list-unstyled li{
+	height: 35px;
+	padding-left: 40px;
+	margin:5px 0;
+	line-height: 2.5;
+}
+.list-unstyled .iemail{
+	background: url(../images/icon-mail2.png) no-repeat 0 50%;
+
+
+}
+.list-unstyled .iphone{
+	background: url(../images/icon-phone.png) no-repeat 0 50%;
+
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-bottom: 20px;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* footer */
+footer{
+	background: url(../images/footer-line.jpg) repeat-x 0 0;
+	padding:5px 0;
+	color: #3c3a3b;
+}
+
+footer p{
+	padding:15px 0;
+	margin: 0;
+}
+
+footer p.copyright a{
+	color: #e13c3c;
+}
+
+footer a{
+	color:#3c3a3b;
+}
+footer .links{
+	margin-right: 20px;
+}
+footer .social img{
+	display: inline;
+	margin:0 1px;
+}
+footer .links, footer .social{
+	display: inline-block;
+}
+
+/*** mobile responsive ***/
+@media (max-width: 400px){
+	.overlay .text_box{
+		margin-top:1em;
+	}
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (max-width: 992px){
+
+	footer, footer .text-right{
+    	text-align: center;
+    }
+    #navbar-primary .navbar-nav > li{
+    	display: block;
+    	border-bottom: 1px solid #fff;
+    }
+    .navbar-collapse{
+    	background-color: #eee;
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+    .nav > li > a:hover, 
+    .nav > li > a:focus{
+    	background: none;
+    	text-decoration: underline;
+    }
+    .navbar-nav{
+    	margin: 0;
+    }
+    #navbar-primary .navbar-nav li.mainlogo{
+    	display: none;
+    }
+    .dropdown-menu {
+    	width: 100%;
+    	text-align: center;
+    	float: none;
+	}
+    .mobile-logo{
+		display: block;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.press-media .col-md-7{
+		padding-left: 42px;
+		padding-right: 43px;
+	}
+	.text_box{font-size: 16px;}
+
+}
