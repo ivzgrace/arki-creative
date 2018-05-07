@@ -28,7 +28,7 @@ var $ = jQuery.noConflict();
 
 <body <?php body_class(); ?> >
 <header class="header" role="banner">
-    <a class="mobile-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/02/logo.png" alt="Arki Creative Design"></a>
+    <a class="mobile-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/02/logo.png" alt=""></a>
 <nav id="navbar-primary" class="navbar" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

@@ -36,6 +36,7 @@ get_header(); ?>
                 the_post_thumbnail('arki-thumb', array( 'class' => "img-responsive")); 
               endif;
               ?></a>
+              <div class="overlay"><a class="text_box" href="<?php the_permalink(); ?>"><?php the_content(); ?></a></div>
         </div>
       </div>
     <?php endwhile;?>
